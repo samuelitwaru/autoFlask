@@ -1,0 +1,2 @@
+def {{name}}(self{% for param in params%}, {{param}}{% endfor %}):
+	{{body}}
